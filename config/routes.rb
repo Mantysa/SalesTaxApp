@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :bills
   get 'usstates/index'
   devise_for :users
   root 'welcome#home'
